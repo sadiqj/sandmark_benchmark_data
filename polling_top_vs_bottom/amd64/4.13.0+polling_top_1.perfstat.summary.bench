@@ -1,0 +1,864 @@
+# started on Fri May 28 14:21:06 2021
+
+
+ Performance counter stats for 'taskset --cpu-list 5 ./bdd.exe 26':
+
+       6091.616423      task-clock (msec)         #    1.000 CPUs utilized          
+                 8      context-switches          #    0.001 K/sec                  
+                 1      cpu-migrations            #    0.000 K/sec                  
+             4,849      page-faults               #    0.796 K/sec                  
+    10,964,782,234      cycles                    #    1.800 GHz                    
+    23,155,073,683      instructions              #    2.11  insn per cycle         
+     5,209,439,647      branches                  #  855.182 M/sec                  
+        55,367,231      branch-misses             #    1.06% of all branches        
+
+       6.092154796 seconds time elapsed
+
+# started on Fri May 28 15:07:25 2021
+
+
+ Performance counter stats for 'taskset --cpu-list 5 ./regexredux2.exe':
+
+      21926.587554      task-clock (msec)         #    1.000 CPUs utilized          
+                20      context-switches          #    0.001 K/sec                  
+                 1      cpu-migrations            #    0.000 K/sec                  
+           219,602      page-faults               #    0.010 M/sec                  
+    39,467,468,867      cycles                    #    1.800 GHz                    
+    91,925,928,155      instructions              #    2.33  insn per cycle         
+    20,205,469,479      branches                  #  921.505 M/sec                  
+       372,676,392      branch-misses             #    1.84% of all branches        
+
+      21.927311643 seconds time elapsed
+
+# started on Fri May 28 15:09:10 2021
+
+
+ Performance counter stats for 'taskset --cpu-list 5 ./ydump.exe -c sample.json':
+
+        911.466756      task-clock (msec)         #    0.999 CPUs utilized          
+                 2      context-switches          #    0.002 K/sec                  
+                 1      cpu-migrations            #    0.001 K/sec                  
+             5,121      page-faults               #    0.006 M/sec                  
+     1,640,607,334      cycles                    #    1.800 GHz                    
+     3,871,161,150      instructions              #    2.36  insn per cycle         
+       811,790,743      branches                  #  890.642 M/sec                  
+         5,321,649      branch-misses             #    0.66% of all branches        
+
+       0.911948149 seconds time elapsed
+
+# started on Fri May 28 15:07:00 2021
+
+
+ Performance counter stats for 'taskset --cpu-list 5 ./nbody.exe 50_000_000':
+
+       9432.612638      task-clock (msec)         #    1.000 CPUs utilized          
+                 6      context-switches          #    0.001 K/sec                  
+                 1      cpu-migrations            #    0.000 K/sec                  
+               254      page-faults               #    0.027 K/sec                  
+    16,978,578,556      cycles                    #    1.800 GHz                    
+    41,364,077,084      instructions              #    2.44  insn per cycle         
+     3,552,433,951      branches                  #  376.612 M/sec                  
+            76,033      branch-misses             #    0.00% of all branches        
+
+       9.433120346 seconds time elapsed
+
+# started on Fri May 28 14:29:35 2021
+
+
+ Performance counter stats for 'taskset --cpu-list 5 cpdf -blacktext benchmarks/cpdf/metro_geo.pdf -o /dev/null':
+
+       5205.981796      task-clock (msec)         #    1.000 CPUs utilized          
+                 8      context-switches          #    0.002 K/sec                  
+                 1      cpu-migrations            #    0.000 K/sec                  
+            33,755      page-faults               #    0.006 M/sec                  
+     9,370,656,011      cycles                    #    1.800 GHz                    
+    19,543,662,260      instructions              #    2.09  insn per cycle         
+     3,278,250,899      branches                  #  629.708 M/sec                  
+        26,021,647      branch-misses             #    0.79% of all branches        
+
+       5.206538262 seconds time elapsed
+
+# started on Fri May 28 14:58:30 2021
+
+
+ Performance counter stats for 'taskset --cpu-list 5 ./levinson_durbin.exe':
+
+       3072.535010      task-clock (msec)         #    1.000 CPUs utilized          
+                 4      context-switches          #    0.001 K/sec                  
+                 1      cpu-migrations            #    0.000 K/sec                  
+             2,671      page-faults               #    0.869 K/sec                  
+     5,530,501,032      cycles                    #    1.800 GHz                    
+    23,627,748,396      instructions              #    4.27  insn per cycle         
+     4,627,439,383      branches                  # 1506.066 M/sec                  
+           549,609      branch-misses             #    0.01% of all branches        
+
+       3.073025360 seconds time elapsed
+
+# started on Fri May 28 15:09:12 2021
+
+
+ Performance counter stats for 'taskset --cpu-list 5 ./zarith_pi.exe 5000':
+
+       1774.802403      task-clock (msec)         #    1.000 CPUs utilized          
+                 4      context-switches          #    0.002 K/sec                  
+                 1      cpu-migrations            #    0.001 K/sec                  
+           459,302      page-faults               #    0.259 M/sec                  
+     3,194,587,948      cycles                    #    1.800 GHz                    
+     4,267,063,877      instructions              #    1.34  insn per cycle         
+       408,605,542      branches                  #  230.226 M/sec                  
+         1,662,944      branch-misses             #    0.41% of all branches        
+
+       1.775269472 seconds time elapsed
+
+# started on Fri May 28 15:07:53 2021
+
+
+ Performance counter stats for 'taskset --cpu-list 5 setrip -enc -rseed 1067894368':
+
+       1865.516889      task-clock (msec)         #    1.000 CPUs utilized          
+                 4      context-switches          #    0.002 K/sec                  
+                 1      cpu-migrations            #    0.001 K/sec                  
+               838      page-faults               #    0.449 K/sec                  
+     3,357,883,618      cycles                    #    1.800 GHz                    
+     6,254,234,786      instructions              #    1.86  insn per cycle         
+     1,094,492,831      branches                  #  586.697 M/sec                  
+         7,781,350      branch-misses             #    0.71% of all branches        
+
+       1.865996588 seconds time elapsed
+
+# started on Fri May 28 15:06:28 2021
+
+
+ Performance counter stats for 'taskset --cpu-list 5 minilight-ocaml benchmarks/minilight/roomfront.ml.txt':
+
+      26783.888689      task-clock (msec)         #    1.000 CPUs utilized          
+                19      context-switches          #    0.001 K/sec                  
+                 1      cpu-migrations            #    0.000 K/sec                  
+             2,205      page-faults               #    0.082 K/sec                  
+    48,210,585,905      cycles                    #    1.800 GHz                    
+    78,841,768,155      instructions              #    1.64  insn per cycle         
+     9,970,232,045      branches                  #  372.247 M/sec                  
+       415,996,347      branch-misses             #    4.17% of all branches        
+
+      26.784540584 seconds time elapsed
+
+# started on Fri May 28 15:07:22 2021
+
+
+ Performance counter stats for 'taskset --cpu-list 5 ./quicksort.exe 4000000':
+
+       3113.314932      task-clock (msec)         #    1.000 CPUs utilized          
+                 3      context-switches          #    0.001 K/sec                  
+                 1      cpu-migrations            #    0.000 K/sec                  
+             8,241      page-faults               #    0.003 M/sec                  
+     5,603,904,935      cycles                    #    1.800 GHz                    
+    17,605,408,798      instructions              #    3.14  insn per cycle         
+     3,759,713,475      branches                  # 1207.624 M/sec                  
+        37,193,713      branch-misses             #    0.99% of all branches        
+
+       3.113811398 seconds time elapsed
+
+# started on Fri May 28 15:07:19 2021
+
+
+ Performance counter stats for 'taskset --cpu-list 5 ./qr_decomposition.exe':
+
+       2489.336080      task-clock (msec)         #    1.000 CPUs utilized          
+                 5      context-switches          #    0.002 K/sec                  
+                 1      cpu-migrations            #    0.000 K/sec                  
+             1,102      page-faults               #    0.443 K/sec                  
+     4,480,749,193      cycles                    #    1.800 GHz                    
+    18,536,552,676      instructions              #    4.14  insn per cycle         
+     3,757,840,146      branches                  # 1509.575 M/sec                  
+         1,570,881      branch-misses             #    0.04% of all branches        
+
+       2.489826777 seconds time elapsed
+
+# started on Fri May 28 14:50:59 2021
+
+
+ Performance counter stats for 'taskset --cpu-list 5 ./fft.exe':
+
+       4771.523940      task-clock (msec)         #    1.000 CPUs utilized          
+                 6      context-switches          #    0.001 K/sec                  
+                 1      cpu-migrations            #    0.000 K/sec                  
+            38,332      page-faults               #    0.008 M/sec                  
+     8,588,645,865      cycles                    #    1.800 GHz                    
+    21,816,455,963      instructions              #    2.54  insn per cycle         
+     4,651,213,175      branches                  #  974.786 M/sec                  
+         1,316,320      branch-misses             #    0.03% of all branches        
+
+       4.772096567 seconds time elapsed
+
+# started on Fri May 28 14:45:50 2021
+
+
+ Performance counter stats for 'taskset --cpu-list 5 ./durand_kerner_aberth.exe':
+
+        167.403038      task-clock (msec)         #    0.997 CPUs utilized          
+                 1      context-switches          #    0.006 K/sec                  
+                 1      cpu-migrations            #    0.006 K/sec                  
+               763      page-faults               #    0.005 M/sec                  
+       301,311,784      cycles                    #    1.800 GHz                    
+       979,668,823      instructions              #    3.25  insn per cycle         
+       186,008,561      branches                  # 1111.142 M/sec                  
+           263,165      branch-misses             #    0.14% of all branches        
+
+       0.167847389 seconds time elapsed
+
+# started on Fri May 28 14:21:32 2021
+
+
+ Performance counter stats for 'taskset --cpu-list 5 coqc benchmarks/coq/AbstractInterpretation.v':
+
+     356833.837393      task-clock (msec)         #    1.000 CPUs utilized          
+               299      context-switches          #    0.001 K/sec                  
+                 1      cpu-migrations            #    0.000 K/sec                  
+           221,192      page-faults               #    0.620 K/sec                  
+   642,294,607,389      cycles                    #    1.800 GHz                    
+ 1,134,432,848,784      instructions              #    1.77  insn per cycle         
+   248,950,550,190      branches                  #  697.665 M/sec                  
+     5,160,217,737      branch-misses             #    2.07% of all branches        
+
+     356.839459888 seconds time elapsed
+
+# started on Fri May 28 14:30:17 2021
+
+
+ Performance counter stats for 'taskset --cpu-list 5 ./crout_decomposition.exe':
+
+       1628.515028      task-clock (msec)         #    1.000 CPUs utilized          
+                 3      context-switches          #    0.002 K/sec                  
+                 1      cpu-migrations            #    0.001 K/sec                  
+            16,125      page-faults               #    0.010 M/sec                  
+     2,931,281,284      cycles                    #    1.800 GHz                    
+    10,021,149,210      instructions              #    3.42  insn per cycle         
+     1,981,751,835      branches                  # 1216.907 M/sec                  
+           230,500      branch-misses             #    0.01% of all branches        
+
+       1.629001733 seconds time elapsed
+
+# started on Fri May 28 14:58:54 2021
+
+
+ Performance counter stats for 'taskset --cpu-list 5 ./mandelbrot6.exe 16_000':
+
+      48585.666140      task-clock (msec)         #    1.000 CPUs utilized          
+                15      context-switches          #    0.000 K/sec                  
+                 1      cpu-migrations            #    0.000 K/sec                  
+               265      page-faults               #    0.005 K/sec                  
+    87,453,693,056      cycles                    #    1.800 GHz                    
+   189,452,695,903      instructions              #    2.17  insn per cycle         
+    26,864,277,827      branches                  #  552.926 M/sec                  
+       397,528,176      branch-misses             #    1.48% of all branches        
+
+      48.586216118 seconds time elapsed
+
+# started on Fri May 28 15:06:55 2021
+
+
+ Performance counter stats for 'taskset --cpu-list 5 ./naive_multilayer.exe':
+
+       5069.978037      task-clock (msec)         #    1.000 CPUs utilized          
+                 4      context-switches          #    0.001 K/sec                  
+                 1      cpu-migrations            #    0.000 K/sec                  
+               872      page-faults               #    0.172 K/sec                  
+     9,125,881,148      cycles                    #    1.800 GHz                    
+    31,824,216,657      instructions              #    3.49  insn per cycle         
+     6,411,747,236      branches                  # 1264.650 M/sec                  
+        20,068,964      branch-misses             #    0.31% of all branches        
+
+       5.070450274 seconds time elapsed
+
+# started on Fri May 28 15:04:49 2021
+
+
+ Performance counter stats for 'taskset --cpu-list 5 menhir -v --table benchmarks/menhir/sysver.mly':
+
+      97830.013367      task-clock (msec)         #    1.000 CPUs utilized          
+                68      context-switches          #    0.001 K/sec                  
+                 1      cpu-migrations            #    0.000 K/sec                  
+           177,991      page-faults               #    0.002 M/sec                  
+   176,092,472,590      cycles                    #    1.800 GHz                    
+   398,689,725,725      instructions              #    2.26  insn per cycle         
+    91,531,144,710      branches                  #  935.614 M/sec                  
+     1,028,064,880      branch-misses             #    1.12% of all branches        
+
+      97.831484267 seconds time elapsed
+
+# started on Fri May 28 14:54:19 2021
+
+
+ Performance counter stats for 'taskset --cpu-list 5 ./knucleotide3.exe':
+
+      53976.351738      task-clock (msec)         #    1.000 CPUs utilized          
+                21      context-switches          #    0.000 K/sec                  
+                 1      cpu-migrations            #    0.000 K/sec                  
+            67,820      page-faults               #    0.001 M/sec                  
+    97,156,775,819      cycles                    #    1.800 GHz                    
+   288,224,039,445      instructions              #    2.97  insn per cycle         
+    56,105,331,895      branches                  # 1039.443 M/sec                  
+       108,252,933      branch-misses             #    0.19% of all branches        
+
+      53.977067877 seconds time elapsed
+
+# started on Fri May 28 15:08:57 2021
+
+
+ Performance counter stats for 'taskset --cpu-list 5 ./thread_ring_lwt_stream.exe 20_000':
+
+      13251.337001      task-clock (msec)         #    1.000 CPUs utilized          
+                 7      context-switches          #    0.001 K/sec                  
+                 1      cpu-migrations            #    0.000 K/sec                  
+             1,686      page-faults               #    0.127 K/sec                  
+    23,852,221,066      cycles                    #    1.800 GHz                    
+    60,604,634,674      instructions              #    2.54  insn per cycle         
+    13,650,236,909      branches                  # 1030.103 M/sec                  
+        20,513,920      branch-misses             #    0.15% of all branches        
+
+      13.251864196 seconds time elapsed
+
+# started on Fri May 28 14:21:13 2021
+
+
+ Performance counter stats for 'taskset --cpu-list 5 ./binarytrees5.exe 21':
+
+      13425.503145      task-clock (msec)         #    1.000 CPUs utilized          
+                10      context-switches          #    0.001 K/sec                  
+                 1      cpu-migrations            #    0.000 K/sec                  
+            39,154      page-faults               #    0.003 M/sec                  
+    24,165,691,853      cycles                    #    1.800 GHz                    
+    59,727,421,672      instructions              #    2.47  insn per cycle         
+    14,723,467,759      branches                  # 1096.679 M/sec                  
+        45,599,848      branch-misses             #    0.31% of all branches        
+
+      13.426043550 seconds time elapsed
+
+# started on Fri May 28 15:08:05 2021
+
+
+ Performance counter stats for 'taskset --cpu-list 5 ./test_decompress.exe 64 524_288':
+
+       4374.554013      task-clock (msec)         #    1.000 CPUs utilized          
+                 7      context-switches          #    0.002 K/sec                  
+                 1      cpu-migrations            #    0.000 K/sec                  
+            56,192      page-faults               #    0.013 M/sec                  
+     7,874,083,615      cycles                    #    1.800 GHz                    
+    26,915,881,505      instructions              #    3.42  insn per cycle         
+     4,977,640,994      branches                  # 1137.863 M/sec                  
+         7,360,595      branch-misses             #    0.15% of all branches        
+
+       4.375092308 seconds time elapsed
+
+# started on Fri May 28 14:51:04 2021
+
+
+ Performance counter stats for 'taskset --cpu-list 5 ./floyd_warshall.exe 512':
+
+       1783.310826      task-clock (msec)         #    1.000 CPUs utilized          
+                 4      context-switches          #    0.002 K/sec                  
+                 1      cpu-migrations            #    0.001 K/sec                  
+             4,511      page-faults               #    0.003 M/sec                  
+     3,209,903,159      cycles                    #    1.800 GHz                    
+     5,869,120,412      instructions              #    1.83  insn per cycle         
+     1,472,360,889      branches                  #  825.633 M/sec                  
+         7,212,842      branch-misses             #    0.49% of all branches        
+
+       1.783794223 seconds time elapsed
+
+# started on Fri May 28 14:59:43 2021
+
+
+ Performance counter stats for 'taskset --cpu-list 5 ./matrix_multiplication.exe 1024':
+
+      10972.934372      task-clock (msec)         #    1.000 CPUs utilized          
+                 6      context-switches          #    0.001 K/sec                  
+                 1      cpu-migrations            #    0.000 K/sec                  
+             6,465      page-faults               #    0.589 K/sec                  
+    19,751,130,810      cycles                    #    1.800 GHz                    
+    32,605,743,238      instructions              #    1.65  insn per cycle         
+     6,520,813,618      branches                  #  594.263 M/sec                  
+         1,155,807      branch-misses             #    0.02% of all branches        
+
+      10.973457966 seconds time elapsed
+
+# started on Fri May 28 14:58:33 2021
+
+
+ Performance counter stats for 'taskset --cpu-list 5 ./main.exe':
+
+      20657.221190      task-clock (msec)         #    1.000 CPUs utilized          
+                15      context-switches          #    0.001 K/sec                  
+                 1      cpu-migrations            #    0.000 K/sec                  
+               915      page-faults               #    0.044 K/sec                  
+    37,182,729,222      cycles                    #    1.800 GHz                    
+    90,267,799,840      instructions              #    2.43  insn per cycle         
+    12,746,285,031      branches                  #  617.038 M/sec                  
+        24,032,539      branch-misses             #    0.19% of all branches        
+
+      20.657820995 seconds time elapsed
+
+# started on Fri May 28 14:20:43 2021
+
+
+ Performance counter stats for 'taskset --cpu-list 5 alt-ergo benchmarks/alt-ergo/fill.why':
+
+       2115.407775      task-clock (msec)         #    1.000 CPUs utilized          
+                 3      context-switches          #    0.001 K/sec                  
+                 1      cpu-migrations            #    0.000 K/sec                  
+            88,213      page-faults               #    0.042 M/sec                  
+     3,807,678,538      cycles                    #    1.800 GHz                    
+     8,839,118,757      instructions              #    2.32  insn per cycle         
+     2,083,330,087      branches                  #  984.836 M/sec                  
+         9,787,253      branch-misses             #    0.47% of all branches        
+
+       2.115905153 seconds time elapsed
+
+# started on Fri May 28 14:27:29 2021
+
+
+ Performance counter stats for 'taskset --cpu-list 5 coqc benchmarks/coq/BasicSyntax.v':
+
+     125706.711588      task-clock (msec)         #    1.000 CPUs utilized          
+               139      context-switches          #    0.001 K/sec                  
+                 1      cpu-migrations            #    0.000 K/sec                  
+           142,811      page-faults               #    0.001 M/sec                  
+   226,269,550,461      cycles                    #    1.800 GHz                    
+   337,620,742,893      instructions              #    1.49  insn per cycle         
+    74,004,715,694      branches                  #  588.709 M/sec                  
+     2,690,846,813      branch-misses             #    3.64% of all branches        
+
+     125.709576842 seconds time elapsed
+
+# started on Fri May 28 15:07:56 2021
+
+
+ Performance counter stats for 'taskset --cpu-list 5 ./spectralnorm2.exe 5_500':
+
+       9230.443116      task-clock (msec)         #    1.000 CPUs utilized          
+                 9      context-switches          #    0.001 K/sec                  
+                 1      cpu-migrations            #    0.000 K/sec                  
+               872      page-faults               #    0.094 K/sec                  
+    16,614,654,986      cycles                    #    1.800 GHz                    
+    59,331,745,902      instructions              #    3.57  insn per cycle         
+     7,267,932,140      branches                  #  787.387 M/sec                  
+           404,965      branch-misses             #    0.01% of all branches        
+
+       9.230920738 seconds time elapsed
+
+# started on Fri May 28 14:53:20 2021
+
+
+ Performance counter stats for 'taskset --cpu-list 5 ./kb_no_exc.exe':
+
+       2940.462680      task-clock (msec)         #    1.000 CPUs utilized          
+                 5      context-switches          #    0.002 K/sec                  
+                 1      cpu-migrations            #    0.000 K/sec                  
+             5,674      page-faults               #    0.002 M/sec                  
+     5,292,767,404      cycles                    #    1.800 GHz                    
+    12,795,656,635      instructions              #    2.42  insn per cycle         
+     3,223,230,050      branches                  # 1096.164 M/sec                  
+        37,839,686      branch-misses             #    1.17% of all branches        
+
+       2.940955677 seconds time elapsed
+
+# started on Fri May 28 15:08:52 2021
+
+
+ Performance counter stats for 'taskset --cpu-list 5 ./thread_ring_lwt_mvar.exe 20_000':
+
+       4096.389108      task-clock (msec)         #    1.000 CPUs utilized          
+                 4      context-switches          #    0.001 K/sec                  
+                 1      cpu-migrations            #    0.000 K/sec                  
+             1,182      page-faults               #    0.289 K/sec                  
+     7,373,428,755      cycles                    #    1.800 GHz                    
+    20,536,023,199      instructions              #    2.79  insn per cycle         
+     4,659,446,769      branches                  # 1137.452 M/sec                  
+         5,246,157      branch-misses             #    0.11% of all branches        
+
+       4.096869846 seconds time elapsed
+
+# started on Fri May 28 14:55:14 2021
+
+
+ Performance counter stats for 'taskset --cpu-list 5 ./kronecker.exe 12 10':
+
+     195741.162945      task-clock (msec)         #    1.000 CPUs utilized          
+               245      context-switches          #    0.001 K/sec                  
+                 1      cpu-migrations            #    0.000 K/sec                  
+        60,660,457      page-faults               #    0.310 M/sec                  
+   352,330,219,927      cycles                    #    1.800 GHz                    
+   195,319,597,972      instructions              #    0.55  insn per cycle         
+    33,555,419,013      branches                  #  171.428 M/sec                  
+       111,991,370      branch-misses             #    0.33% of all branches        
+
+     195.745499504 seconds time elapsed
+
+# started on Fri May 28 14:48:59 2021
+
+
+ Performance counter stats for 'taskset --cpu-list 5 ./fannkuchredux2.exe 12':
+
+     103149.791206      task-clock (msec)         #    1.000 CPUs utilized          
+                29      context-switches          #    0.000 K/sec                  
+                 1      cpu-migrations            #    0.000 K/sec                  
+               250      page-faults               #    0.002 K/sec                  
+   185,668,601,211      cycles                    #    1.800 GHz                    
+   594,468,913,791      instructions              #    3.20  insn per cycle         
+   134,582,586,351      branches                  # 1304.730 M/sec                  
+     2,378,500,428      branch-misses             #    1.77% of all branches        
+
+     103.150416872 seconds time elapsed
+
+# started on Fri May 28 14:51:07 2021
+
+
+ Performance counter stats for 'taskset --cpu-list 5 ./game_of_life.exe 256':
+
+      11984.119805      task-clock (msec)         #    1.000 CPUs utilized          
+                 7      context-switches          #    0.001 K/sec                  
+                 1      cpu-migrations            #    0.000 K/sec                  
+             4,376      page-faults               #    0.365 K/sec                  
+    21,571,251,510      cycles                    #    1.800 GHz                    
+    64,386,829,314      instructions              #    2.98  insn per cycle         
+     9,264,189,692      branches                  #  773.039 M/sec                  
+        50,164,662      branch-misses             #    0.54% of all branches        
+
+      11.984665097 seconds time elapsed
+
+# started on Fri May 28 14:59:55 2021
+
+
+ Performance counter stats for 'taskset --cpu-list 5 menhir benchmarks/menhir/ocaml.mly --list-errors -la 2 --no-stdlib --lalr':
+
+     286179.098005      task-clock (msec)         #    1.000 CPUs utilized          
+               169      context-switches          #    0.001 K/sec                  
+                 1      cpu-migrations            #    0.000 K/sec                  
+         1,055,120      page-faults               #    0.004 M/sec                  
+   515,118,214,445      cycles                    #    1.800 GHz                    
+ 1,074,970,959,102      instructions              #    2.09  insn per cycle         
+   226,111,581,563      branches                  #  790.105 M/sec                  
+     2,649,676,538      branch-misses             #    1.17% of all branches        
+
+     286.182055536 seconds time elapsed
+
+# started on Fri May 28 14:30:19 2021
+
+
+ Performance counter stats for 'taskset --cpu-list 5 cubicle benchmarks/cubicle/german_pfs.cub':
+
+     309960.939182      task-clock (msec)         #    1.000 CPUs utilized          
+               217      context-switches          #    0.001 K/sec                  
+                 1      cpu-migrations            #    0.000 K/sec                  
+            66,588      page-faults               #    0.215 K/sec                  
+   557,924,223,555      cycles                    #    1.800 GHz                    
+ 1,020,291,879,765      instructions              #    1.83  insn per cycle         
+   246,084,824,375      branches                  #  793.922 M/sec                  
+     2,574,704,781      branch-misses             #    1.05% of all branches        
+
+     309.965029757 seconds time elapsed
+
+# started on Fri May 28 15:07:47 2021
+
+
+ Performance counter stats for 'taskset --cpu-list 5 ./revcomp2.exe':
+
+       3048.293230      task-clock (msec)         #    1.000 CPUs utilized          
+                 5      context-switches          #    0.002 K/sec                  
+                 1      cpu-migrations            #    0.000 K/sec                  
+            50,123      page-faults               #    0.016 M/sec                  
+     5,486,847,843      cycles                    #    1.800 GHz                    
+    19,635,256,511      instructions              #    3.58  insn per cycle         
+     3,484,692,821      branches                  # 1143.162 M/sec                  
+         1,458,578      branch-misses             #    0.04% of all branches        
+
+       3.048796783 seconds time elapsed
+
+# started on Fri May 28 14:47:17 2021
+
+
+ Performance counter stats for 'taskset --cpu-list 5 ./fannkuchredux.exe 12':
+
+     101093.025224      task-clock (msec)         #    1.000 CPUs utilized          
+                28      context-switches          #    0.000 K/sec                  
+                 1      cpu-migrations            #    0.000 K/sec                  
+               252      page-faults               #    0.002 K/sec                  
+   181,966,454,619      cycles                    #    1.800 GHz                    
+   602,923,041,708      instructions              #    3.31  insn per cycle         
+   135,281,481,576      branches                  # 1338.188 M/sec                  
+     2,401,789,894      branch-misses             #    1.78% of all branches        
+
+     101.093663149 seconds time elapsed
+
+# started on Fri May 28 15:07:51 2021
+
+
+ Performance counter stats for 'taskset --cpu-list 5 ./sequence_cps.exe 10000':
+
+       1943.007466      task-clock (msec)         #    1.000 CPUs utilized          
+                 3      context-switches          #    0.002 K/sec                  
+                 1      cpu-migrations            #    0.001 K/sec                  
+               715      page-faults               #    0.368 K/sec                  
+     3,497,371,809      cycles                    #    1.800 GHz                    
+    12,329,826,781      instructions              #    3.53  insn per cycle         
+     2,368,898,644      branches                  # 1219.192 M/sec                  
+           199,335      branch-misses             #    0.01% of all branches        
+
+       1.943472743 seconds time elapsed
+
+# started on Fri May 28 14:53:25 2021
+
+
+ Performance counter stats for 'taskset --cpu-list 5 ./knucleotide.exe':
+
+      53873.215733      task-clock (msec)         #    1.000 CPUs utilized          
+                22      context-switches          #    0.000 K/sec                  
+                 1      cpu-migrations            #    0.000 K/sec                  
+            98,854      page-faults               #    0.002 M/sec                  
+    96,971,135,635      cycles                    #    1.800 GHz                    
+   269,240,947,039      instructions              #    2.78  insn per cycle         
+    53,912,061,137      branches                  # 1000.721 M/sec                  
+        88,424,677      branch-misses             #    0.16% of all branches        
+
+      53.873984985 seconds time elapsed
+
+# started on Fri May 28 15:08:10 2021
+
+
+ Performance counter stats for 'taskset --cpu-list 5 ./test_lwt.exe 200':
+
+      42038.640821      task-clock (msec)         #    1.000 CPUs utilized          
+                18      context-switches          #    0.000 K/sec                  
+                 1      cpu-migrations            #    0.000 K/sec                  
+             1,245      page-faults               #    0.030 K/sec                  
+    75,668,998,811      cycles                    #    1.800 GHz                    
+    97,122,051,408      instructions              #    1.28  insn per cycle         
+    19,469,448,069      branches                  #  463.132 M/sec                  
+        61,712,423      branch-misses             #    0.32% of all branches        
+
+      42.039288220 seconds time elapsed
+
+# started on Fri May 28 15:04:41 2021
+
+
+ Performance counter stats for 'taskset --cpu-list 5 menhir -v -t benchmarks/menhir/keywords.mly benchmarks/menhir/sql-parser.mly --base sql-parser':
+
+       7940.682762      task-clock (msec)         #    1.000 CPUs utilized          
+                11      context-switches          #    0.001 K/sec                  
+                 1      cpu-migrations            #    0.000 K/sec                  
+            76,692      page-faults               #    0.010 M/sec                  
+    14,293,043,534      cycles                    #    1.800 GHz                    
+    34,769,785,231      instructions              #    2.43  insn per cycle         
+     7,751,661,495      branches                  #  976.196 M/sec                  
+        77,630,655      branch-misses             #    1.00% of all branches        
+
+       7.941300901 seconds time elapsed
+
+# started on Fri May 28 15:07:10 2021
+
+
+ Performance counter stats for 'taskset --cpu-list 5 ./pidigits5.exe 10_000':
+
+       8291.057185      task-clock (msec)         #    1.000 CPUs utilized          
+                11      context-switches          #    0.001 K/sec                  
+                 1      cpu-migrations            #    0.000 K/sec                  
+         2,321,564      page-faults               #    0.280 M/sec                  
+    14,923,712,422      cycles                    #    1.800 GHz                    
+    18,716,852,708      instructions              #    1.25  insn per cycle         
+     1,896,967,183      branches                  #  228.797 M/sec                  
+         7,215,178      branch-misses             #    0.38% of all branches        
+
+       8.291658981 seconds time elapsed
+
+# started on Fri May 28 14:21:26 2021
+
+
+ Performance counter stats for 'taskset --cpu-list 5 ./chameneos_redux_lwt.exe 600000':
+
+       4697.830391      task-clock (msec)         #    1.000 CPUs utilized          
+                 5      context-switches          #    0.001 K/sec                  
+                 1      cpu-migrations            #    0.000 K/sec                  
+               851      page-faults               #    0.181 K/sec                  
+     8,456,016,766      cycles                    #    1.800 GHz                    
+     7,902,192,221      instructions              #    0.93  insn per cycle         
+     1,755,062,401      branches                  #  373.590 M/sec                  
+        20,474,884      branch-misses             #    1.17% of all branches        
+
+       4.698319436 seconds time elapsed
+
+# started on Fri May 28 14:29:57 2021
+
+
+ Performance counter stats for 'taskset --cpu-list 5 cpdf -squeeze benchmarks/cpdf/PDFReference16.pdf_toobig -o /dev/null':
+
+      19623.559375      task-clock (msec)         #    1.000 CPUs utilized          
+                20      context-switches          #    0.001 K/sec                  
+                 1      cpu-migrations            #    0.000 K/sec                  
+            81,191      page-faults               #    0.004 M/sec                  
+    35,322,043,527      cycles                    #    1.800 GHz                    
+    68,843,799,054      instructions              #    1.95  insn per cycle         
+    12,548,675,860      branches                  #  639.470 M/sec                  
+       114,238,301      branch-misses             #    0.91% of all branches        
+
+      19.624319431 seconds time elapsed
+
+# started on Fri May 28 14:50:42 2021
+
+
+ Performance counter stats for 'taskset --cpu-list 5 ./fasta3.exe 25_000_000':
+
+       9295.537579      task-clock (msec)         #    1.000 CPUs utilized          
+                 5      context-switches          #    0.001 K/sec                  
+                 1      cpu-migrations            #    0.000 K/sec                  
+               774      page-faults               #    0.083 K/sec                  
+    16,731,850,815      cycles                    #    1.800 GHz                    
+    21,982,516,903      instructions              #    1.31  insn per cycle         
+     4,208,029,562      branches                  #  452.694 M/sec                  
+       175,849,649      branch-misses             #    4.18% of all branches        
+
+       9.296026340 seconds time elapsed
+
+# started on Fri May 28 14:53:15 2021
+
+
+ Performance counter stats for 'taskset --cpu-list 5 ./kb.exe':
+
+       4712.385893      task-clock (msec)         #    1.000 CPUs utilized          
+                 7      context-switches          #    0.001 K/sec                  
+                 1      cpu-migrations            #    0.000 K/sec                  
+            15,702      page-faults               #    0.003 M/sec                  
+     8,482,203,742      cycles                    #    1.800 GHz                    
+    15,537,477,965      instructions              #    1.83  insn per cycle         
+     3,662,084,882      branches                  #  777.119 M/sec                  
+       142,742,140      branch-misses             #    3.90% of all branches        
+
+       4.712917340 seconds time elapsed
+
+# started on Fri May 28 14:35:30 2021
+
+
+ Performance counter stats for 'taskset --cpu-list 5 cubicle benchmarks/cubicle/szymanski_at.cub':
+
+     619916.975907      task-clock (msec)         #    1.000 CPUs utilized          
+               304      context-switches          #    0.000 K/sec                  
+                 1      cpu-migrations            #    0.000 K/sec                  
+            35,173      page-faults               #    0.057 K/sec                  
+ 1,115,842,489,497      cycles                    #    1.800 GHz                    
+ 2,752,409,280,887      instructions              #    2.47  insn per cycle         
+   616,576,929,363      branches                  #  994.612 M/sec                  
+     3,400,453,709      branch-misses             #    0.55% of all branches        
+
+     619.922398026 seconds time elapsed
+
+# started on Fri May 28 14:50:52 2021
+
+
+ Performance counter stats for 'taskset --cpu-list 5 ./fasta6.exe 25_000_000':
+
+       6556.567526      task-clock (msec)         #    1.000 CPUs utilized          
+                 9      context-switches          #    0.001 K/sec                  
+                 1      cpu-migrations            #    0.000 K/sec                  
+            50,931      page-faults               #    0.008 M/sec                  
+    11,801,696,625      cycles                    #    1.800 GHz                    
+    17,986,431,534      instructions              #    1.52  insn per cycle         
+     3,184,090,755      branches                  #  485.634 M/sec                  
+       187,848,918      branch-misses             #    5.90% of all branches        
+
+       6.557100776 seconds time elapsed
+
+# started on Fri May 28 14:51:19 2021
+
+
+ Performance counter stats for 'taskset --cpu-list 5 ./grammatrix.exe':
+
+     114998.561149      task-clock (msec)         #    1.000 CPUs utilized          
+               145      context-switches          #    0.001 K/sec                  
+                 1      cpu-migrations            #    0.000 K/sec                  
+           126,074      page-faults               #    0.001 M/sec                  
+   206,995,283,122      cycles                    #    1.800 GHz                    
+   447,095,301,598      instructions              #    2.16  insn per cycle         
+    99,282,331,385      branches                  #  863.335 M/sec                  
+        26,172,452      branch-misses             #    0.03% of all branches        
+
+     115.000912992 seconds time elapsed
+
+# started on Fri May 28 14:20:38 2021
+
+
+ Performance counter stats for 'taskset --cpu-list 5 ./LU_decomposition.exe 1024':
+
+       4916.615502      task-clock (msec)         #    1.000 CPUs utilized          
+                 4      context-switches          #    0.001 K/sec                  
+                 1      cpu-migrations            #    0.000 K/sec                  
+             6,956      page-faults               #    0.001 M/sec                  
+     8,849,820,486      cycles                    #    1.800 GHz                    
+    32,248,671,137      instructions              #    3.64  insn per cycle         
+     4,714,584,858      branches                  #  958.909 M/sec                  
+           672,539      branch-misses             #    0.01% of all branches        
+
+       4.917109070 seconds time elapsed
+
+# started on Fri May 28 14:29:40 2021
+
+
+ Performance counter stats for 'taskset --cpu-list 5 cpdf scale-to-fit a4landscape -twoup benchmarks/cpdf/PDFReference16.pdf_toobig -o /dev/null':
+
+      16560.581524      task-clock (msec)         #    1.000 CPUs utilized          
+                22      context-switches          #    0.001 K/sec                  
+                 1      cpu-migrations            #    0.000 K/sec                  
+            50,161      page-faults               #    0.003 M/sec                  
+    29,808,694,678      cycles                    #    1.800 GHz                    
+    59,970,803,003      instructions              #    2.01  insn per cycle         
+    11,610,636,751      branches                  #  701.101 M/sec                  
+       107,827,879      branch-misses             #    0.93% of all branches        
+
+      16.561364633 seconds time elapsed
+
+# started on Fri May 28 14:53:24 2021
+
+
+ Performance counter stats for 'taskset --cpu-list 5 ./kernel1.exe 12 10':
+
+          1.773509      task-clock (msec)         #    0.803 CPUs utilized          
+                 1      context-switches          #    0.564 K/sec                  
+                 1      cpu-migrations            #    0.564 K/sec                  
+               211      page-faults               #    0.119 M/sec                  
+         3,179,962      cycles                    #    1.793 GHz                    
+         2,641,424      instructions              #    0.83  insn per cycle         
+           514,721      branches                  #  290.227 M/sec                  
+            21,486      branch-misses             #    4.17% of all branches        
+
+       0.002209011 seconds time elapsed
+
+# started on Fri May 28 14:45:51 2021
+
+
+ Performance counter stats for 'taskset --cpu-list 5 ./evolutionary_algorithm.exe 10000 10000':
+
+      86202.719605      task-clock (msec)         #    1.000 CPUs utilized          
+                59      context-switches          #    0.001 K/sec                  
+                 1      cpu-migrations            #    0.000 K/sec                  
+           811,148      page-faults               #    0.009 M/sec                  
+   155,163,704,520      cycles                    #    1.800 GHz                    
+   336,571,319,496      instructions              #    2.17  insn per cycle         
+    59,472,990,614      branches                  #  689.920 M/sec                  
+     1,234,833,013      branch-misses             #    2.08% of all branches        
+
+      86.203977083 seconds time elapsed
+
+# started on Fri May 28 14:20:45 2021
+
+
+ Performance counter stats for 'taskset --cpu-list 5 alt-ergo benchmarks/alt-ergo/yyll.why':
+
+      20342.349685      task-clock (msec)         #    1.000 CPUs utilized          
+                23      context-switches          #    0.001 K/sec                  
+                 1      cpu-migrations            #    0.000 K/sec                  
+            70,251      page-faults               #    0.003 M/sec                  
+    36,615,821,255      cycles                    #    1.800 GHz                    
+    73,767,574,419      instructions              #    2.01  insn per cycle         
+    17,936,450,375      branches                  #  881.730 M/sec                  
+       183,389,202      branch-misses             #    1.02% of all branches        
+
+      20.343182319 seconds time elapsed
+

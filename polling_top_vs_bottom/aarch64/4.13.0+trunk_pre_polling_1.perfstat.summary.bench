@@ -1,0 +1,1040 @@
+# started on Sun May 30 02:59:46 2021
+
+
+ Performance counter stats for './knucleotide.exe':
+
+        153,718.38 msec task-clock:u              #    0.999 CPUs utilized          
+                 0      context-switches:u        #    0.000 K/sec                  
+                 0      cpu-migrations:u          #    0.000 K/sec                  
+            98,760      page-faults:u             #    0.642 K/sec                  
+   227,840,103,595      cycles:u                  #    1.482 GHz                    
+   294,151,894,443      instructions:u            #    1.29  insn per cycle         
+   <not supported>      branches:u                                                  
+        86,224,830      branch-misses:u                                             
+
+     153.872952565 seconds time elapsed
+
+     152.834589000 seconds user
+       0.867515000 seconds sys
+
+
+# started on Sun May 30 03:38:59 2021
+
+
+ Performance counter stats for './thread_ring_lwt_mvar.exe 20_000':
+
+         17,301.89 msec task-clock:u              #    1.000 CPUs utilized          
+                 0      context-switches:u        #    0.000 K/sec                  
+                 0      cpu-migrations:u          #    0.000 K/sec                  
+             1,114      page-faults:u             #    0.064 K/sec                  
+    25,704,599,241      cycles:u                  #    1.486 GHz                    
+    23,612,609,910      instructions:u            #    0.92  insn per cycle         
+   <not supported>      branches:u                                                  
+        10,535,388      branch-misses:u                                             
+
+      17.305389720 seconds time elapsed
+
+      17.286400000 seconds user
+       0.015994000 seconds sys
+
+
+# started on Sun May 30 02:56:04 2021
+
+
+ Performance counter stats for './fasta6.exe 25_000_000':
+
+         10,013.55 msec task-clock:u              #    0.999 CPUs utilized          
+                 0      context-switches:u        #    0.000 K/sec                  
+                 0      cpu-migrations:u          #    0.000 K/sec                  
+            50,855      page-faults:u             #    0.005 M/sec                  
+    14,438,884,401      cycles:u                  #    1.442 GHz                    
+    16,806,735,688      instructions:u            #    1.16  insn per cycle         
+   <not supported>      branches:u                                                  
+       213,323,793      branch-misses:u                                             
+
+      10.020058293 seconds time elapsed
+
+       9.610409000 seconds user
+       0.403933000 seconds sys
+
+
+# started on Sun May 30 03:36:31 2021
+
+
+ Performance counter stats for './regexredux2.exe':
+
+         41,758.41 msec task-clock:u              #    0.999 CPUs utilized          
+                 0      context-switches:u        #    0.000 K/sec                  
+                 0      cpu-migrations:u          #    0.000 K/sec                  
+           181,490      page-faults:u             #    0.004 M/sec                  
+    60,542,360,996      cycles:u                  #    1.450 GHz                    
+    84,722,243,899      instructions:u            #    1.40  insn per cycle         
+   <not supported>      branches:u                                                  
+       461,165,572      branch-misses:u                                             
+
+      41.784892316 seconds time elapsed
+
+      40.662090000 seconds user
+       1.095625000 seconds sys
+
+
+# started on Sun May 30 02:59:31 2021
+
+
+ Performance counter stats for './kb.exe':
+
+          8,497.17 msec task-clock:u              #    0.997 CPUs utilized          
+                 0      context-switches:u        #    0.000 K/sec                  
+                 0      cpu-migrations:u          #    0.000 K/sec                  
+            15,627      page-faults:u             #    0.002 M/sec                  
+    12,390,215,774      cycles:u                  #    1.458 GHz                    
+    15,854,082,308      instructions:u            #    1.28  insn per cycle         
+   <not supported>      branches:u                                                  
+        68,905,714      branch-misses:u                                             
+
+       8.519650899 seconds time elapsed
+
+       8.360577000 seconds user
+       0.135944000 seconds sys
+
+
+# started on Sun May 30 03:29:37 2021
+
+
+ Performance counter stats for 'menhir -v --table benchmarks/menhir/sysver.mly':
+
+        202,681.14 msec task-clock:u              #    1.000 CPUs utilized          
+                 0      context-switches:u        #    0.000 K/sec                  
+                 0      cpu-migrations:u          #    0.000 K/sec                  
+           177,916      page-faults:u             #    0.878 K/sec                  
+   298,088,502,226      cycles:u                  #    1.471 GHz                    
+   424,039,283,327      instructions:u            #    1.42  insn per cycle         
+   <not supported>      branches:u                                                  
+     1,459,480,098      branch-misses:u                                             
+
+     202.716394151 seconds time elapsed
+
+     200.628816000 seconds user
+       2.047640000 seconds sys
+
+
+# started on Sun May 30 03:37:41 2021
+
+
+ Performance counter stats for './spectralnorm2.exe 5_500':
+
+         28,484.24 msec task-clock:u              #    1.000 CPUs utilized          
+                 0      context-switches:u        #    0.000 K/sec                  
+                 0      cpu-migrations:u          #    0.000 K/sec                  
+               794      page-faults:u             #    0.028 K/sec                  
+    42,395,972,862      cycles:u                  #    1.488 GHz                    
+    62,945,741,520      instructions:u            #    1.48  insn per cycle         
+   <not supported>      branches:u                                                  
+           313,852      branch-misses:u                                             
+
+      28.495454252 seconds time elapsed
+
+      28.472465000 seconds user
+       0.011998000 seconds sys
+
+
+# started on Sun May 30 02:47:50 2021
+
+
+ Performance counter stats for './evolutionary_algorithm.exe 10000 10000':
+
+        164,281.90 msec task-clock:u              #    1.000 CPUs utilized          
+                 0      context-switches:u        #    0.000 K/sec                  
+                 0      cpu-migrations:u          #    0.000 K/sec                  
+           811,069      page-faults:u             #    0.005 M/sec                  
+   236,235,109,827      cycles:u                  #    1.438 GHz                    
+   334,721,622,490      instructions:u            #    1.42  insn per cycle         
+   <not supported>      branches:u                                                  
+     1,248,975,802      branch-misses:u                                             
+
+     164.318835269 seconds time elapsed
+
+     159.270715000 seconds user
+       5.006827000 seconds sys
+
+
+# started on Sun May 30 01:58:22 2021
+
+
+ Performance counter stats for 'cpdf scale-to-fit a4landscape -twoup benchmarks/cpdf/PDFReference16.pdf_toobig -o /dev/null':
+
+         37,540.56 msec task-clock:u              #    0.999 CPUs utilized          
+                 0      context-switches:u        #    0.000 K/sec                  
+                 0      cpu-migrations:u          #    0.000 K/sec                  
+            50,015      page-faults:u             #    0.001 M/sec                  
+    54,620,933,469      cycles:u                  #    1.455 GHz                    
+    62,194,578,554      instructions:u            #    1.14  insn per cycle         
+   <not supported>      branches:u                                                  
+       201,874,397      branch-misses:u                                             
+
+      37.593350084 seconds time elapsed
+
+      36.783687000 seconds user
+       0.751421000 seconds sys
+
+
+# started on Sun May 30 01:55:56 2021
+
+
+ Performance counter stats for 'alt-ergo benchmarks/alt-ergo/fill.why':
+
+          7,267.39 msec task-clock:u              #    0.998 CPUs utilized          
+                 0      context-switches:u        #    0.000 K/sec                  
+                 0      cpu-migrations:u          #    0.000 K/sec                  
+            88,134      page-faults:u             #    0.012 M/sec                  
+     9,843,779,699      cycles:u                  #    1.355 GHz                    
+     9,056,175,151      instructions:u            #    0.92  insn per cycle         
+   <not supported>      branches:u                                                  
+        20,282,480      branch-misses:u                                             
+
+       7.279161361 seconds time elapsed
+
+       6.704691000 seconds user
+       0.564058000 seconds sys
+
+
+# started on Sun May 30 03:37:22 2021
+
+
+ Performance counter stats for './sequence_cps.exe 10000':
+
+         16,410.50 msec task-clock:u              #    0.998 CPUs utilized          
+                 0      context-switches:u        #    0.000 K/sec                  
+                 0      cpu-migrations:u          #    0.000 K/sec                  
+               639      page-faults:u             #    0.039 K/sec                  
+    24,303,369,198      cycles:u                  #    1.481 GHz                    
+    14,930,932,359      instructions:u            #    0.61  insn per cycle         
+   <not supported>      branches:u                                                  
+         4,438,919      branch-misses:u                                             
+
+      16.450090168 seconds time elapsed
+
+      16.407087000 seconds user
+       0.000000000 seconds sys
+
+
+# started on Sun May 30 01:55:29 2021
+
+
+ Performance counter stats for './LU_decomposition.exe 1024':
+
+         26,448.69 msec task-clock:u              #    0.999 CPUs utilized          
+                 0      context-switches:u        #    0.000 K/sec                  
+                 0      cpu-migrations:u          #    0.000 K/sec                  
+             6,882      page-faults:u             #    0.260 K/sec                  
+    39,211,006,141      cycles:u                  #    1.483 GHz                    
+    35,080,501,985      instructions:u            #    0.89  insn per cycle         
+   <not supported>      branches:u                                                  
+           618,163      branch-misses:u                                             
+
+      26.476851594 seconds time elapsed
+
+      26.399850000 seconds user
+       0.048007000 seconds sys
+
+
+# started on Sun May 30 03:40:19 2021
+
+
+ Performance counter stats for './zarith_pi.exe 5000':
+
+          6,348.80 msec task-clock:u              #    1.000 CPUs utilized          
+                 0      context-switches:u        #    0.000 K/sec                  
+                 0      cpu-migrations:u          #    0.000 K/sec                  
+           459,232      page-faults:u             #    0.072 M/sec                  
+     4,611,963,667      cycles:u                  #    0.726 GHz                    
+     2,470,793,266      instructions:u            #    0.54  insn per cycle         
+   <not supported>      branches:u                                                  
+         2,249,105      branch-misses:u                                             
+
+       6.350871044 seconds time elapsed
+
+       3.488866000 seconds user
+       2.860710000 seconds sys
+
+
+# started on Sun May 30 02:59:40 2021
+
+
+ Performance counter stats for './kb_no_exc.exe':
+
+          6,480.96 msec task-clock:u              #    0.997 CPUs utilized          
+                 0      context-switches:u        #    0.000 K/sec                  
+                 0      cpu-migrations:u          #    0.000 K/sec                  
+             5,604      page-faults:u             #    0.865 K/sec                  
+     9,538,494,930      cycles:u                  #    1.472 GHz                    
+    13,251,218,933      instructions:u            #    1.39  insn per cycle         
+   <not supported>      branches:u                                                  
+        51,942,151      branch-misses:u                                             
+
+       6.498834192 seconds time elapsed
+
+       6.447683000 seconds user
+       0.031919000 seconds sys
+
+
+# started on Sun May 30 03:15:27 2021
+
+
+ Performance counter stats for './main.exe':
+
+         39,427.92 msec task-clock:u              #    0.999 CPUs utilized          
+                 0      context-switches:u        #    0.000 K/sec                  
+                 0      cpu-migrations:u          #    0.000 K/sec                  
+               836      page-faults:u             #    0.021 K/sec                  
+    58,556,890,522      cycles:u                  #    1.485 GHz                    
+    84,180,472,885      instructions:u            #    1.44  insn per cycle         
+   <not supported>      branches:u                                                  
+        40,819,307      branch-misses:u                                             
+
+      39.485806232 seconds time elapsed
+
+      39.377943000 seconds user
+       0.039949000 seconds sys
+
+
+# started on Sun May 30 03:35:38 2021
+
+
+ Performance counter stats for './pidigits5.exe 10_000':
+
+         28,598.15 msec task-clock:u              #    0.998 CPUs utilized          
+                 0      context-switches:u        #    0.000 K/sec                  
+                 0      cpu-migrations:u          #    0.000 K/sec                  
+         2,321,474      page-faults:u             #    0.081 M/sec                  
+    18,368,969,317      cycles:u                  #    0.642 GHz                    
+    10,065,236,240      instructions:u            #    0.55  insn per cycle         
+   <not supported>      branches:u                                                  
+         5,878,354      branch-misses:u                                             
+
+      28.651770000 seconds time elapsed
+
+      13.659988000 seconds user
+      14.926133000 seconds sys
+
+
+# started on Sun May 30 01:59:52 2021
+
+
+ Performance counter stats for 'cubicle benchmarks/cubicle/german_pfs.cub':
+
+        842,048.76 msec task-clock:u              #    1.000 CPUs utilized          
+                 0      context-switches:u        #    0.000 K/sec                  
+                 0      cpu-migrations:u          #    0.000 K/sec                  
+            66,169      page-faults:u             #    0.079 K/sec                  
+ 1,248,663,552,694      cycles:u                  #    1.483 GHz                    
+ 1,045,954,084,146      instructions:u            #    0.84  insn per cycle         
+   <not supported>      branches:u                                                  
+     4,241,458,349      branch-misses:u                                             
+
+     842.242628013 seconds time elapsed
+
+     841.316811000 seconds user
+       0.697991000 seconds sys
+
+
+# started on Sun May 30 03:39:16 2021
+
+
+ Performance counter stats for './thread_ring_lwt_stream.exe 20_000':
+
+         61,059.84 msec task-clock:u              #    1.000 CPUs utilized          
+                 0      context-switches:u        #    0.000 K/sec                  
+                 0      cpu-migrations:u          #    0.000 K/sec                  
+             1,618      page-faults:u             #    0.026 K/sec                  
+    90,736,297,892      cycles:u                  #    1.486 GHz                    
+    67,617,704,522      instructions:u            #    0.75  insn per cycle         
+   <not supported>      branches:u                                                  
+       118,959,440      branch-misses:u                                             
+
+      61.074331411 seconds time elapsed
+
+      61.047424000 seconds user
+       0.011997000 seconds sys
+
+
+# started on Sun May 30 01:59:46 2021
+
+
+ Performance counter stats for './crout_decomposition.exe':
+
+          6,669.43 msec task-clock:u              #    0.998 CPUs utilized          
+                 0      context-switches:u        #    0.000 K/sec                  
+                 0      cpu-migrations:u          #    0.000 K/sec                  
+            16,053      page-faults:u             #    0.002 M/sec                  
+     9,737,035,413      cycles:u                  #    1.460 GHz                    
+    11,149,507,156      instructions:u            #    1.15  insn per cycle         
+   <not supported>      branches:u                                                  
+           198,025      branch-misses:u                                             
+
+       6.680079813 seconds time elapsed
+
+       6.553629000 seconds user
+       0.115958000 seconds sys
+
+
+# started on Sun May 30 02:50:35 2021
+
+
+ Performance counter stats for './fannkuchredux.exe 12':
+
+        161,340.09 msec task-clock:u              #    1.000 CPUs utilized          
+                 0      context-switches:u        #    0.000 K/sec                  
+                 0      cpu-migrations:u          #    0.000 K/sec                  
+               173      page-faults:u             #    0.001 K/sec                  
+   241,626,499,954      cycles:u                  #    1.498 GHz                    
+   520,997,298,054      instructions:u            #    2.16  insn per cycle         
+   <not supported>      branches:u                                                  
+     2,605,158,080      branch-misses:u                                             
+
+     161.394133722 seconds time elapsed
+
+     161.332246000 seconds user
+       0.007999000 seconds sys
+
+
+# started on Sun May 30 02:56:32 2021
+
+
+ Performance counter stats for './floyd_warshall.exe 512':
+
+          8,011.53 msec task-clock:u              #    0.999 CPUs utilized          
+                 0      context-switches:u        #    0.000 K/sec                  
+                 0      cpu-migrations:u          #    0.000 K/sec                  
+             4,442      page-faults:u             #    0.554 K/sec                  
+    11,879,330,868      cycles:u                  #    1.483 GHz                    
+     5,650,576,859      instructions:u            #    0.48  insn per cycle         
+   <not supported>      branches:u                                                  
+         7,542,007      branch-misses:u                                             
+
+       8.020376971 seconds time elapsed
+
+       7.975458000 seconds user
+       0.035979000 seconds sys
+
+
+# started on Sun May 30 02:56:14 2021
+
+
+ Performance counter stats for './fft.exe':
+
+         17,622.37 msec task-clock:u              #    1.000 CPUs utilized          
+                 0      context-switches:u        #    0.000 K/sec                  
+                 0      cpu-migrations:u          #    0.000 K/sec                  
+            38,254      page-faults:u             #    0.002 M/sec                  
+    25,791,657,992      cycles:u                  #    1.464 GHz                    
+    22,685,283,231      instructions:u            #    0.88  insn per cycle         
+   <not supported>      branches:u                                                  
+        49,159,964      branch-misses:u                                             
+
+      17.628050313 seconds time elapsed
+
+      17.354656000 seconds user
+       0.267917000 seconds sys
+
+
+# started on Sun May 30 03:33:00 2021
+
+
+ Performance counter stats for 'minilight-ocaml benchmarks/minilight/roomfront.ml.txt':
+
+        111,839.57 msec task-clock:u              #    1.000 CPUs utilized          
+                 0      context-switches:u        #    0.000 K/sec                  
+                 0      cpu-migrations:u          #    0.000 K/sec                  
+             2,106      page-faults:u             #    0.019 K/sec                  
+   165,545,315,465      cycles:u                  #    1.480 GHz                    
+    88,038,609,749      instructions:u            #    0.53  insn per cycle         
+   <not supported>      branches:u                                                  
+       535,414,601      branch-misses:u                                             
+
+     111.873984466 seconds time elapsed
+
+     111.778797000 seconds user
+       0.055985000 seconds sys
+
+
+# started on Sun May 30 01:57:30 2021
+
+
+ Performance counter stats for './binarytrees5.exe 21':
+
+         33,604.95 msec task-clock:u              #    0.999 CPUs utilized          
+                 0      context-switches:u        #    0.000 K/sec                  
+                 0      cpu-migrations:u          #    0.000 K/sec                  
+            39,077      page-faults:u             #    0.001 M/sec                  
+    49,558,782,981      cycles:u                  #    1.475 GHz                    
+    65,378,954,226      instructions:u            #    1.32  insn per cycle         
+   <not supported>      branches:u                                                  
+       166,782,592      branch-misses:u                                             
+
+      33.627325646 seconds time elapsed
+
+      33.342489000 seconds user
+       0.259957000 seconds sys
+
+
+# started on Sun May 30 01:56:03 2021
+
+
+ Performance counter stats for 'alt-ergo benchmarks/alt-ergo/yyll.why':
+
+         63,558.66 msec task-clock:u              #    1.000 CPUs utilized          
+                 0      context-switches:u        #    0.000 K/sec                  
+                 0      cpu-migrations:u          #    0.000 K/sec                  
+            70,154      page-faults:u             #    0.001 M/sec                  
+    93,466,308,796      cycles:u                  #    1.471 GHz                    
+    76,514,512,953      instructions:u            #    0.82  insn per cycle         
+   <not supported>      branches:u                                                  
+       475,074,731      branch-misses:u                                             
+
+      63.571282151 seconds time elapsed
+
+      63.086083000 seconds user
+       0.471844000 seconds sys
+
+
+# started on Sun May 30 03:35:17 2021
+
+
+ Performance counter stats for './nbody.exe 50_000_000':
+
+         20,836.27 msec task-clock:u              #    0.999 CPUs utilized          
+                 0      context-switches:u        #    0.000 K/sec                  
+                 0      cpu-migrations:u          #    0.000 K/sec                  
+               171      page-faults:u             #    0.008 K/sec                  
+    31,152,834,884      cycles:u                  #    1.495 GHz                    
+    38,500,635,740      instructions:u            #    1.24  insn per cycle         
+   <not supported>      branches:u                                                  
+            21,692      branch-misses:u                                             
+
+      20.850400754 seconds time elapsed
+
+      20.829281000 seconds user
+       0.008000000 seconds sys
+
+
+# started on Sun May 30 03:04:57 2021
+
+
+ Performance counter stats for './kronecker.exe 12 10':
+
+        616,315.90 msec task-clock:u              #    1.000 CPUs utilized          
+                 0      context-switches:u        #    0.000 K/sec                  
+                 0      cpu-migrations:u          #    0.000 K/sec                  
+        60,660,379      page-faults:u             #    0.098 M/sec                  
+   291,580,816,840      cycles:u                  #    0.473 GHz                    
+    66,610,925,826      instructions:u            #    0.23  insn per cycle         
+   <not supported>      branches:u                                                  
+        33,968,629      branch-misses:u                                             
+
+     616.577054179 seconds time elapsed
+
+     226.348946000 seconds user
+     389.904255000 seconds sys
+
+
+# started on Sun May 30 02:47:49 2021
+
+
+ Performance counter stats for './durand_kerner_aberth.exe':
+
+            841.54 msec task-clock:u              #    0.999 CPUs utilized          
+                 0      context-switches:u        #    0.000 K/sec                  
+                 0      cpu-migrations:u          #    0.000 K/sec                  
+               691      page-faults:u             #    0.821 K/sec                  
+     1,239,651,934      cycles:u                  #    1.473 GHz                    
+     1,099,546,472      instructions:u            #    0.89  insn per cycle         
+   <not supported>      branches:u                                                  
+           396,086      branch-misses:u                                             
+
+       0.842620718 seconds time elapsed
+
+       0.838528000 seconds user
+       0.003992000 seconds sys
+
+
+# started on Sun May 30 01:58:12 2021
+
+
+ Performance counter stats for 'cpdf -blacktext benchmarks/cpdf/metro_geo.pdf -o /dev/null':
+
+         10,955.28 msec task-clock:u              #    0.999 CPUs utilized          
+                 0      context-switches:u        #    0.000 K/sec                  
+                 0      cpu-migrations:u          #    0.000 K/sec                  
+            33,678      page-faults:u             #    0.003 M/sec                  
+    15,973,301,478      cycles:u                  #    1.458 GHz                    
+    18,451,168,695      instructions:u            #    1.16  insn per cycle         
+   <not supported>      branches:u                                                  
+        62,714,807      branch-misses:u                                             
+
+      10.967332053 seconds time elapsed
+
+      10.740066000 seconds user
+       0.215920000 seconds sys
+
+
+# started on Sun May 30 03:17:06 2021
+
+
+ Performance counter stats for './matrix_multiplication.exe 1024':
+
+         41,284.38 msec task-clock:u              #    0.999 CPUs utilized          
+                 0      context-switches:u        #    0.000 K/sec                  
+                 0      cpu-migrations:u          #    0.000 K/sec                  
+             6,393      page-faults:u             #    0.155 K/sec                  
+    61,578,672,111      cycles:u                  #    1.492 GHz                    
+    29,332,931,251      instructions:u            #    0.48  insn per cycle         
+   <not supported>      branches:u                                                  
+         1,070,359      branch-misses:u                                             
+
+      41.312992844 seconds time elapsed
+
+      41.251942000 seconds user
+       0.031993000 seconds sys
+
+
+# started on Sun May 30 03:29:15 2021
+
+
+ Performance counter stats for 'menhir -v -t benchmarks/menhir/keywords.mly benchmarks/menhir/sql-parser.mly --base sql-parser':
+
+         22,681.41 msec task-clock:u              #    0.999 CPUs utilized          
+                 0      context-switches:u        #    0.000 K/sec                  
+                 0      cpu-migrations:u          #    0.000 K/sec                  
+            76,572      page-faults:u             #    0.003 M/sec                  
+    32,524,440,496      cycles:u                  #    1.434 GHz                    
+    35,941,541,148      instructions:u            #    1.11  insn per cycle         
+   <not supported>      branches:u                                                  
+        95,766,982      branch-misses:u                                             
+
+      22.708463420 seconds time elapsed
+
+      22.027306000 seconds user
+       0.651388000 seconds sys
+
+
+# started on Sun May 30 03:37:38 2021
+
+
+ Performance counter stats for 'setrip -enc -rseed 1067894368':
+
+          2,823.90 msec task-clock:u              #    0.998 CPUs utilized          
+                 0      context-switches:u        #    0.000 K/sec                  
+                 0      cpu-migrations:u          #    0.000 K/sec                  
+               754      page-faults:u             #    0.267 K/sec                  
+     4,180,192,406      cycles:u                  #    1.480 GHz                    
+     6,546,351,815      instructions:u            #    1.57  insn per cycle         
+   <not supported>      branches:u                                                  
+         8,599,990      branch-misses:u                                             
+
+       2.829027064 seconds time elapsed
+
+       2.824689000 seconds user
+       0.000000000 seconds sys
+
+
+# started on Sun May 30 03:16:06 2021
+
+
+ Performance counter stats for './mandelbrot6.exe 16_000':
+
+         59,744.81 msec task-clock:u              #    0.999 CPUs utilized          
+                 0      context-switches:u        #    0.000 K/sec                  
+                 0      cpu-migrations:u          #    0.000 K/sec                  
+               183      page-faults:u             #    0.003 K/sec                  
+    89,455,833,589      cycles:u                  #    1.497 GHz                    
+   139,152,455,204      instructions:u            #    1.56  insn per cycle         
+   <not supported>      branches:u                                                  
+       149,998,344      branch-misses:u                                             
+
+      59.779286807 seconds time elapsed
+
+      59.721830000 seconds user
+       0.024005000 seconds sys
+
+
+# started on Sun May 30 02:55:49 2021
+
+
+ Performance counter stats for './fasta3.exe 25_000_000':
+
+         15,357.48 msec task-clock:u              #    0.999 CPUs utilized          
+                 0      context-switches:u        #    0.000 K/sec                  
+                 0      cpu-migrations:u          #    0.000 K/sec                  
+               694      page-faults:u             #    0.045 K/sec                  
+    22,822,481,248      cycles:u                  #    1.486 GHz                    
+    23,565,032,928      instructions:u            #    1.03  insn per cycle         
+   <not supported>      branches:u                                                  
+       255,672,771      branch-misses:u                                             
+
+      15.373478970 seconds time elapsed
+
+      15.329829000 seconds user
+       0.027981000 seconds sys
+
+
+# started on Sun May 30 03:36:25 2021
+
+
+ Performance counter stats for './quicksort.exe 4000000':
+
+          5,204.44 msec task-clock:u              #    0.999 CPUs utilized          
+                 0      context-switches:u        #    0.000 K/sec                  
+                 0      cpu-migrations:u          #    0.000 K/sec                  
+             8,167      page-faults:u             #    0.002 M/sec                  
+     7,689,307,329      cycles:u                  #    1.477 GHz                    
+    16,385,071,418      instructions:u            #    2.13  insn per cycle         
+   <not supported>      branches:u                                                  
+        37,076,235      branch-misses:u                                             
+
+       5.210878422 seconds time elapsed
+
+       5.156801000 seconds user
+       0.047970000 seconds sys
+
+
+# started on Sun May 30 01:57:06 2021
+
+
+ Performance counter stats for './bdd.exe 26':
+
+         23,524.31 msec task-clock:u              #    0.998 CPUs utilized          
+                 0      context-switches:u        #    0.000 K/sec                  
+                 0      cpu-migrations:u          #    0.000 K/sec                  
+             4,775      page-faults:u             #    0.203 K/sec                  
+    34,920,597,469      cycles:u                  #    1.484 GHz                    
+    23,943,570,073      instructions:u            #    0.69  insn per cycle         
+   <not supported>      branches:u                                                  
+       117,049,858      branch-misses:u                                             
+
+      23.559813507 seconds time elapsed
+
+      23.475464000 seconds user
+       0.048007000 seconds sys
+
+
+# started on Sun May 30 03:36:06 2021
+
+
+ Performance counter stats for './qr_decomposition.exe':
+
+         18,830.23 msec task-clock:u              #    1.000 CPUs utilized          
+                 0      context-switches:u        #    0.000 K/sec                  
+                 0      cpu-migrations:u          #    0.000 K/sec                  
+             1,032      page-faults:u             #    0.055 K/sec                  
+    27,974,523,089      cycles:u                  #    1.486 GHz                    
+    20,520,654,065      instructions:u            #    0.73  insn per cycle         
+   <not supported>      branches:u                                                  
+         1,663,648      branch-misses:u                                             
+
+      18.834332869 seconds time elapsed
+
+      18.822726000 seconds user
+       0.007997000 seconds sys
+
+
+# started on Sun May 30 01:58:04 2021
+
+
+ Performance counter stats for './chameneos_redux_lwt.exe 600000':
+
+          7,703.80 msec task-clock:u              #    0.999 CPUs utilized          
+                 0      context-switches:u        #    0.000 K/sec                  
+                 0      cpu-migrations:u          #    0.000 K/sec                  
+               780      page-faults:u             #    0.101 K/sec                  
+     9,486,408,331      cycles:u                  #    1.231 GHz                    
+     8,353,237,640      instructions:u            #    0.88  insn per cycle         
+   <not supported>      branches:u                                                  
+        27,411,300      branch-misses:u                                             
+
+       7.712960324 seconds time elapsed
+
+       6.708474000 seconds user
+       0.995476000 seconds sys
+
+
+# started on Sun May 30 02:57:02 2021
+
+
+ Performance counter stats for './grammatrix.exe':
+
+        149,140.11 msec task-clock:u              #    0.999 CPUs utilized          
+                 0      context-switches:u        #    0.000 K/sec                  
+                 0      cpu-migrations:u          #    0.000 K/sec                  
+           125,989      page-faults:u             #    0.845 K/sec                  
+   219,594,594,799      cycles:u                  #    1.472 GHz                    
+   446,689,307,148      instructions:u            #    2.03  insn per cycle         
+   <not supported>      branches:u                                                  
+        25,065,073      branch-misses:u                                             
+
+     149.242690510 seconds time elapsed
+
+     147.433732000 seconds user
+       1.699697000 seconds sys
+
+
+# started on Sun May 30 03:40:17 2021
+
+
+ Performance counter stats for './ydump.exe -c sample.json':
+
+          1,477.99 msec task-clock:u              #    0.996 CPUs utilized          
+                 0      context-switches:u        #    0.000 K/sec                  
+                 0      cpu-migrations:u          #    0.000 K/sec                  
+             4,684      page-faults:u             #    0.003 M/sec                  
+     2,018,498,368      cycles:u                  #    1.366 GHz                    
+     3,665,264,193      instructions:u            #    1.82  insn per cycle         
+   <not supported>      branches:u                                                  
+         8,204,514      branch-misses:u                                             
+
+       1.484284272 seconds time elapsed
+
+       1.366620000 seconds user
+       0.111887000 seconds sys
+
+
+# started on Sun May 30 02:13:55 2021
+
+
+ Performance counter stats for 'cubicle benchmarks/cubicle/szymanski_at.cub':
+
+      2,034,139.41 msec task-clock:u              #    1.000 CPUs utilized          
+                 0      context-switches:u        #    0.000 K/sec                  
+                 0      cpu-migrations:u          #    0.000 K/sec                  
+            34,791      page-faults:u             #    0.017 K/sec                  
+ 3,019,207,398,151      cycles:u                  #    1.484 GHz                    
+ 2,751,140,545,750      instructions:u            #    0.91  insn per cycle         
+   <not supported>      branches:u                                                  
+     5,808,452,201      branch-misses:u                                             
+
+    2034.615660503 seconds time elapsed
+
+    2033.777310000 seconds user
+       0.289973000 seconds sys
+
+
+# started on Sun May 30 02:59:46 2021
+
+
+ Performance counter stats for './kernel1.exe 12 10':
+
+              2.67 msec task-clock:u              #    0.769 CPUs utilized          
+                 0      context-switches:u        #    0.000 K/sec                  
+                 0      cpu-migrations:u          #    0.000 K/sec                  
+               143      page-faults:u             #    0.054 M/sec                  
+         1,134,449      cycles:u                  #    0.425 GHz                    
+           490,755      instructions:u            #    0.43  insn per cycle         
+   <not supported>      branches:u                                                  
+             8,412      branch-misses:u                                             
+
+       0.003475167 seconds time elapsed
+
+       0.003681000 seconds user
+       0.000000000 seconds sys
+
+
+# started on Sun May 30 01:59:00 2021
+
+
+ Performance counter stats for 'cpdf -squeeze benchmarks/cpdf/PDFReference16.pdf_toobig -o /dev/null':
+
+         45,519.43 msec task-clock:u              #    0.999 CPUs utilized          
+                 0      context-switches:u        #    0.000 K/sec                  
+                 0      cpu-migrations:u          #    0.000 K/sec                  
+            81,603      page-faults:u             #    0.002 M/sec                  
+    66,304,624,092      cycles:u                  #    1.457 GHz                    
+    69,104,979,806      instructions:u            #    1.04  insn per cycle         
+   <not supported>      branches:u                                                  
+       206,202,447      branch-misses:u                                             
+
+      45.583642809 seconds time elapsed
+
+      44.663812000 seconds user
+       0.852072000 seconds sys
+
+
+# started on Sun May 30 03:38:10 2021
+
+
+ Performance counter stats for './test_decompress.exe 64 524_288':
+
+         10,069.36 msec task-clock:u              #    0.998 CPUs utilized          
+                 0      context-switches:u        #    0.000 K/sec                  
+                 0      cpu-migrations:u          #    0.000 K/sec                  
+            56,106      page-faults:u             #    0.006 M/sec                  
+    14,303,139,702      cycles:u                  #    1.420 GHz                    
+    28,368,518,241      instructions:u            #    1.98  insn per cycle         
+   <not supported>      branches:u                                                  
+         7,595,759      branch-misses:u                                             
+
+      10.085843487 seconds time elapsed
+
+       9.664212000 seconds user
+       0.404008000 seconds sys
+
+
+# started on Sun May 30 03:34:52 2021
+
+
+ Performance counter stats for './naive_multilayer.exe':
+
+         24,816.96 msec task-clock:u              #    0.998 CPUs utilized          
+                 0      context-switches:u        #    0.000 K/sec                  
+                 0      cpu-migrations:u          #    0.000 K/sec                  
+               795      page-faults:u             #    0.032 K/sec                  
+    36,774,893,712      cycles:u                  #    1.482 GHz                    
+    34,704,019,006      instructions:u            #    0.94  insn per cycle         
+   <not supported>      branches:u                                                  
+        51,376,514      branch-misses:u                                             
+
+      24.855907394 seconds time elapsed
+
+      24.799367000 seconds user
+       0.011984000 seconds sys
+
+
+# started on Sun May 30 03:15:14 2021
+
+
+ Performance counter stats for './levinson_durbin.exe':
+
+         12,994.79 msec task-clock:u              #    0.999 CPUs utilized          
+                 0      context-switches:u        #    0.000 K/sec                  
+                 0      cpu-migrations:u          #    0.000 K/sec                  
+             2,601      page-faults:u             #    0.200 K/sec                  
+    19,251,114,710      cycles:u                  #    1.481 GHz                    
+    24,868,380,906      instructions:u            #    1.29  insn per cycle         
+   <not supported>      branches:u                                                  
+           577,027      branch-misses:u                                             
+
+      13.009559456 seconds time elapsed
+
+      12.970218000 seconds user
+       0.024004000 seconds sys
+
+
+# started on Sun May 30 03:37:12 2021
+
+
+ Performance counter stats for './revcomp2.exe':
+
+          9,524.15 msec task-clock:u              #    0.997 CPUs utilized          
+                 0      context-switches:u        #    0.000 K/sec                  
+                 0      cpu-migrations:u          #    0.000 K/sec                  
+            50,029      page-faults:u             #    0.005 M/sec                  
+    13,128,801,110      cycles:u                  #    1.378 GHz                    
+    21,809,954,175      instructions:u            #    1.66  insn per cycle         
+   <not supported>      branches:u                                                  
+        11,473,051      branch-misses:u                                             
+
+       9.555367125 seconds time elapsed
+
+       8.895328000 seconds user
+       0.627952000 seconds sys
+
+
+# started on Sun May 30 02:53:16 2021
+
+
+ Performance counter stats for './fannkuchredux2.exe 12':
+
+        152,467.76 msec task-clock:u              #    1.000 CPUs utilized          
+                 0      context-switches:u        #    0.000 K/sec                  
+                 0      cpu-migrations:u          #    0.000 K/sec                  
+               171      page-faults:u             #    0.001 K/sec                  
+   228,352,617,408      cycles:u                  #    1.498 GHz                    
+   517,416,062,396      instructions:u            #    2.27  insn per cycle         
+   <not supported>      branches:u                                                  
+     2,179,497,465      branch-misses:u                                             
+
+     152.499724620 seconds time elapsed
+
+     152.468061000 seconds user
+       0.000000000 seconds sys
+
+
+# started on Sun May 30 02:56:40 2021
+
+
+ Performance counter stats for './game_of_life.exe 256':
+
+         21,900.98 msec task-clock:u              #    0.999 CPUs utilized          
+                 0      context-switches:u        #    0.000 K/sec                  
+                 0      cpu-migrations:u          #    0.000 K/sec                  
+             4,305      page-faults:u             #    0.197 K/sec                  
+    32,671,961,953      cycles:u                  #    1.492 GHz                    
+    62,188,375,481      instructions:u            #    1.90  insn per cycle         
+   <not supported>      branches:u                                                  
+        57,463,893      branch-misses:u                                             
+
+      21.913717603 seconds time elapsed
+
+      21.877591000 seconds user
+       0.023997000 seconds sys
+
+
+# started on Sun May 30 03:38:20 2021
+
+
+ Performance counter stats for './test_lwt.exe 200':
+
+         38,755.73 msec task-clock:u              #    1.000 CPUs utilized          
+                 0      context-switches:u        #    0.000 K/sec                  
+                 0      cpu-migrations:u          #    0.000 K/sec                  
+             1,176      page-faults:u             #    0.030 K/sec                  
+    57,540,211,953      cycles:u                  #    1.485 GHz                    
+    94,236,885,213      instructions:u            #    1.64  insn per cycle         
+   <not supported>      branches:u                                                  
+        68,475,681      branch-misses:u                                             
+
+      38.765078278 seconds time elapsed
+
+      38.735589000 seconds user
+       0.019995000 seconds sys
+
+
+# started on Sun May 30 03:17:47 2021
+
+
+ Performance counter stats for 'menhir benchmarks/menhir/ocaml.mly --list-errors -la 2 --no-stdlib --lalr':
+
+        687,089.13 msec task-clock:u              #    1.000 CPUs utilized          
+                 0      context-switches:u        #    0.000 K/sec                  
+                 0      cpu-migrations:u          #    0.000 K/sec                  
+         1,073,827      page-faults:u             #    0.002 M/sec                  
+ 1,012,270,858,649      cycles:u                  #    1.473 GHz                    
+ 1,115,528,603,636      instructions:u            #    1.10  insn per cycle         
+   <not supported>      branches:u                                                  
+     3,693,825,661      branch-misses:u                                             
+
+     687.221907005 seconds time elapsed
+
+     680.190903000 seconds user
+       6.882936000 seconds sys
+
+
+# started on Sun May 30 03:02:20 2021
+
+
+ Performance counter stats for './knucleotide3.exe':
+
+        156,850.13 msec task-clock:u              #    0.999 CPUs utilized          
+                 0      context-switches:u        #    0.000 K/sec                  
+                 0      cpu-migrations:u          #    0.000 K/sec                  
+            67,727      page-faults:u             #    0.432 K/sec                  
+   232,948,695,641      cycles:u                  #    1.485 GHz                    
+   302,731,246,178      instructions:u            #    1.30  insn per cycle         
+   <not supported>      branches:u                                                  
+       108,388,769      branch-misses:u                                             
+
+     156.935556838 seconds time elapsed
+
+     156.147331000 seconds user
+       0.691589000 seconds sys
+
+
